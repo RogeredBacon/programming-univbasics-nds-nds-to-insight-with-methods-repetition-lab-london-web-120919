@@ -51,6 +51,7 @@ def total_gross(source)
   directors_hash = directors_totals(source)
   while i < names_array.length
     gross_total += directors_hash[names_array[i]]
+    i += 1
   end
   gross_total
 end
